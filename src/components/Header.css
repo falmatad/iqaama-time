@@ -1,0 +1,11 @@
+.jumbo {
+  background: url("/header.jpg") no-repeat center center;
+  background-size: cover;
+  /* min-height: 60vh; */
+}
+
+.jumbo .content {
+  text-align: center;
+  background: rgba(5, 5, 5, 0.4);
+  color: white;
+}
