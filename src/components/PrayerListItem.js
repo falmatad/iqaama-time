@@ -10,11 +10,14 @@ function PrayerListItem({ name, time, time2 }) {
           <Col>{name}</Col>
           {time2 && (
             <Col>
-              <Moment date={time2} format="hh:mm A" />
+            Azaan at - 6:20
+               {/* <Moment date={time2} format="hh:mm A" /> */}
             </Col>
           )}
           <Col className="text-right">
-            <Moment date={time} format="hh:mm A" />
+          Iqaamah at - 6:30
+            {/* <Moment date={time} format="hh:mm A" /> */}
+            
           </Col>
         </Row>
       </ListGroupItem>
